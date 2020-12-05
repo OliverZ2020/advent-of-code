@@ -11,7 +11,7 @@ def load_data(file_name):
 SUM_VALUE = 2020
 
 # number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-number_list = load_data(file_name='./day1a/data.txt')
+number_list = load_data(file_name='./day1/data.txt')
 total_numbers = len(number_list)
 print(f"Total numbers: {total_numbers}")
 for i in range(total_numbers - 1):
